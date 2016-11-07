@@ -1,4 +1,12 @@
-<form action="<?php echo base_url(). 'index.php/crud/tambah_aksi'; ?>" method="post">
+<!--
+<?php
+	$ambil=$kode->petugas_kode;
+	$buang_huruf=(int) substr($ambil, 3);
+	$buang_huruf++;
+	$kode_baru="PTG". sprintf("%03s", $buang_huruf);
+?>
+-->
+<form action="<?php echo base_url(). 'crud/tambah_aksi'; ?>" method="post">
 	<table style="margin:20px auto;">
 		<tr>
 			<td>Kode</td>
